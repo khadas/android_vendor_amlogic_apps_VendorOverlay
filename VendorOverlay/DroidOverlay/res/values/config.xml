@@ -21,7 +21,9 @@
     <!-- Flag indicating that the media framework should not allow changes or mute on any
          stream or master volumes. -->
     <bool name="config_forceDefaultOrientation">false</bool>
+    <!-- fixed cts bug android.app.usage.cts.UsageStatsTest#testNotificationSeen
     <bool name="config_enableAutoPowerModes">true</bool>
+                                                       -->
     <bool name="config_useFixedVolume">false</bool>
     <string-array translatable="false" name="networkAttributes">
         <item>"wifi,1,1,1,-1,true"</item>
